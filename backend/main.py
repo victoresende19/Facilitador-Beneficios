@@ -62,7 +62,7 @@ compiled_graph = graph.compile()
 # ============================
 
 app = FastAPI(title="Guardião dos Benefícios API")
-origins = ["https://facilitador-beneficios.vercel.app/", "http://localhost:5173"]
+origins = ["https://facilitador-beneficios.vercel.app", "http://localhost:5173"]
 
 app.add_middleware(
     CORSMiddleware,

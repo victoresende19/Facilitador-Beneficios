@@ -75,7 +75,7 @@ export default function Chat() {
                 sobre regras, elegibilidade ou informações sobre benefícios.
               </p>
               <p className="chat-empty-hint">
-                Ex: “Tenho direito ao Auxílio Educação?” ou “Quais os benefícios da empresa?”
+                Ex: “Quais os benefícios da empresa?”
               </p>
             </div>
           )}

@@ -126,7 +126,7 @@ export default function Chat() {
           {isLoading && (
             <div className="chat-bubble-row chat-bubble-row-assistant">
               <div className="chat-bubble chat-bubble-assistant chat-typing">
-                Digitando...
+                Digitando... Isso pode levar alguns segundos, aguarde... ⏳
               </div>
             </div>
           )}
